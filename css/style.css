@@ -1,0 +1,17 @@
+
+p {
+	margin-bottom: 10px;
+}
+
+#mypink {
+	background-color: pink;
+	overflow: hidden;
+	padding: 5px;
+}
+
+.myblue{
+	background-color: blue;
+	overflow: hidden;
+	padding: 5px;
+}
+	
