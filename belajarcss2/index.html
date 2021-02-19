@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Simple layout two columns</title>
+	<style>
+		/**{
+			margin: 0px;
+			height: 0px;
+			font-size: 14px;
+			font-family: Arial,Helvetica,sans-serif;
+		}*/
+
+		/*  - Style Body -  */
+
+		body {
+			background-image: url(images/background/NYC01_WCTHWALL.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+
+		/*  - End Style Body -  */
+
+
+		/* - Style Wrapper -  */
+
+		#wrapper {
+			width: 950px;
+			height: 850px;
+			/*background-color: white;*/
+			margin: auto;
+		}
+
+		/* - End Style Wrapper -  */
+
+
+		/* - Style Wrapper Header -  */
+		#wrapper #header {
+			height: 80px;
+			padding-top: 25px;
+			/*background-color: #330000;*/
+		}
+
+		#wrapper #header h1 {
+			font-size: 35px;
+			color: #FFFFCC;
+			/*margin-top: 25px;*/
+			/*padding-top: 10px;*/
+		}
+		/* - End Style Wrapper Header -  */
+
+
+		/* - Style Wrapper Menu -  */
+		#wrapper #menu {
+			height: 50px;
+			background-color: #FF6600;
+		}
+
+		#wrapper #menu ul {
+			list-style-type: none;
+		}
+
+
+		#wrapper #menu ul li {
+			float: left;
+			width: 212px;
+			text-align: center;
+		}
+
+		#wrapper #menu ul li a {
+			/*float: left;*/
+			font-size: 24px;
+			text-decoration: none;
+			color: #333300;
+			line-height: 50px;
+		}
+		/* - End Style Wrapper Menu -  */
+
+		/* - Style Wrapper konten -  */
+		#wrapper #content {
+			height: 600px;
+			background-color: #FFFF99;
+			overflow: hidden;
+		}
+
+		#wrapper #content_left {
+			width: 650px;
+			height: 600px;
+			background-color: #FFCC00;
+			float: left;
+		}
+
+		#wrapper #content_right {
+			width: 300px;
+			height: 600px;
+			background-color: #FFFF00;
+			float: right;
+
+		}
+		/* - End Style Wrapper konten -  */
+
+		/* - Style Wrapper konten -  */
+		#wrapper #footer {
+			height: 50px;
+			background-color: #330000;
+		}
+		/* - End Style Wrapper konten -  */
+
+	</style>
+</head>
+<body>
+	<div id="wrapper">
+		<div id="header">
+		<!-- Start Header  -->
+			<h1> My Personal Website</h1>
+		<!-- End Header  -->	
+		</div>
+
+		<div id="menu">
+		<!-- Start Menu  -->
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Profile</a></li>
+				<li><a href="#">Blogs</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		<!-- End Menu  -->
+		</div>
+
+		<div id="content">
+		<!-- Start Content  -->
+			<div id="content_left">
+			<!-- Start Content left -->
+			
+			<!-- End Content left -->
+			</div>
+
+			<div id="content_right">
+			<!-- Start Content Right -->
+			<!-- End Content Right -->
+			</div>		
+		<!-- End Content  -->
+		</div>
+
+		<div id="footer">
+		<!-- Start Footer  -->
+		
+		<!-- End Footer  -->
+		</div>
+	</div>
+</body>
+</html>

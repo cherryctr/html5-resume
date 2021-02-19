@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Simple layout</title>
+	<style>
+		* {
+			/* berfungsi sebagai untuk mengatur tampilan semua element HTML agar sama */
+			margin: 0px;
+			padding: 0px;
+			font-size: 17px;
+			font-family: Arial, Helvetica, sans-serif;
+		}
+
+		/* Style body  */
+
+		body {
+			 /* background-image:url(namafile/disesuaikan); 
+				Berfungsi untuk menentukan image yang di jadikan background
+			 */
+			background-image: url(images/ricepaper_v3.png);
+		}
+
+		/* Style body  */
+
+
+		/* Style Wrapper */
+
+			/* Style Wrapper Header */
+			#wrapper {
+				width: 950px;
+				/*background-color: white;*/
+				height: 650px;
+				margin: auto;
+			}
+
+			#wrapper #header {
+				height: 63px;
+				padding-top: 16px;
+				/*background-color: #FF9900;*/
+			}
+
+
+
+
+			#wrapper #header img {
+				width: 350px;
+				height: auto;
+			}
+
+			/* Style Wrapper Header  */
+
+
+			/* Style Wrapper Menu */
+			#wrapper #menu {
+				height: 42px;
+				background-color: #995E28;
+				padding-top: 14px;
+				padding-left: 20px;
+			}
+
+			#wrapper #menu ul {
+				list-style-type: none;	
+			}
+
+			#wrapper #menu ul li {
+				float: left;
+				margin-right: 30px;	
+			}
+
+			#wrapper #menu ul li a {
+			  font-size: 18px;
+			  color: #FCF11D;
+			  font-weight: bold;
+			  text-decoration: none;
+			}
+
+			#wrapper #menu ul li a:hover {
+			  color: #FFFFC6;
+			}
+			/* Style Wrapper Menu */
+
+
+			/* Style Wrapper Content */
+			#wrapper #content {
+				height: 797px;
+				background-color: #FFFFCC;
+				padding: 20px;
+				/*overflow: visible;*/
+			}
+
+			#wrapper #content h2 {
+				font-size: 25px;
+				margin-bottom: 20px;
+			}
+
+			#wrapper #content p img {
+				width: 250px;
+				height: auto;
+				float: left;
+				margin-right: 10px;
+				margin-bottom: 10px;
+			}
+
+
+			#wrapper #content p {
+				margin-bottom: 30px;
+				text-align: justify;
+			}
+
+			/* Style Wrapper Content */
+
+
+			/* Style Wrapper Footer */
+			#wrapper #footer {
+				height: 35px;
+				background-color: #280e04;
+				color: white;
+				padding-top: 15px;
+				padding-left: 10px;
+			}
+			/* Style Wrapper Footer */
+
+		/* Style Wrapper */
+
+
+	</style>
+</head>
+<body>
+
+	 <!-- berikut adalah coment di html -->
+
+	<div id="wrapper">
+		<div id="header">
+			<!-- Start Header -->
+			<img src="images/logo_baba.png">
+			<!-- End Header -->
+		</div>
+
+		<div id="menu">
+			<!-- Start menu -->
+ 			<ul>
+ 				<li><a href="index2.html">Home</a></li>
+ 				<li><a href="#">Profile</a></li>
+ 				<li><a href="#">Gallery</a></li>
+ 				<li><a href="#">Contact us</a></li>
+ 			</ul>
+			<!--  End Menu  -->
+		</div>
+
+		<div id="content">
+			<!-- Start Menu -->
+			<h2>Welcome</h2>
+			<p><img src="images/city_images/gopego_london.jpg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tempus vitae nisi non feugiat. Aliquam arcu elit, varius sed elementum id, tempus sed lorem. Cras venenatis diam eget cursus accumsan. Fusce rutrum porta sem a tempus. Aenean mi sem, elementum eu leo quis, ultrices bibendum lorem. Quisque eu urna et sapien scelerisque finibus. Donec vitae nunc eu dolor viverra fermentum. Ut vestibulum dolor orci, nec feugiat mi ultricies et. Pellentesque finibus dui quis vehicula consequat. Nunc eleifend tellus in erat egestas, vitae hendrerit nulla sodales. In et efficitur massa, dictum posuere neque. Duis ultrices neque quis enim euismod, vitae bibendum felis sagittis.</p>
+
+			<p><img src="images/city_images/gopego_abu_dhabi.jpg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tempus vitae nisi non feugiat. Aliquam arcu elit, varius sed elementum id, tempus sed lorem. Cras venenatis diam eget cursus accumsan. Fusce rutrum porta sem a tempus. Aenean mi sem, elementum eu leo quis, ultrices bibendum lorem. Quisque eu urna et sapien scelerisque finibus. Donec vitae nunc eu dolor viverra fermentum. Ut vestibulum dolor orci, nec feugiat mi ultricies et. Pellentesque finibus dui quis vehicula consequat. Nunc eleifend tellus in erat egestas, vitae hendrerit nulla sodales. In et efficitur massa, dictum posuere neque. Duis ultrices neque quis enim euismod, vitae bibendum felis sagittis.</p>
+
+			<p><img src="images/city_images/gopego_yokohama.jpg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tempus vitae nisi non feugiat. Aliquam arcu elit, varius sed elementum id, tempus sed lorem. Cras venenatis diam eget cursus accumsan. Fusce rutrum porta sem a tempus. Aenean mi sem, elementum eu leo quis, ultrices bibendum lorem. Quisque eu urna et sapien scelerisque finibus. Donec vitae nunc eu dolor viverra fermentum. Ut vestibulum dolor orci, nec feugiat mi ultricies et. Pellentesque finibus dui quis vehicula consequat. Nunc eleifend tellus in erat egestas, vitae hendrerit nulla sodales. In et efficitur massa, dictum posuere neque. Duis ultrices neque quis enim euismod, vitae bibendum felis sagittis.</p>
+
+			<p><img src="images/city_images/san_vransisco.jpg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tempus vitae nisi non feugiat. Aliquam arcu elit, varius sed elementum id, tempus sed lorem. Cras venenatis diam eget cursus accumsan. Fusce rutrum porta sem a tempus. Aenean mi sem, elementum eu leo quis, ultrices bibendum lorem. Quisque eu urna et sapien scelerisque finibus. Donec vitae nunc eu dolor viverra fermentum. Ut vestibulum dolor orci, nec feugiat mi ultricies et. Pellentesque finibus dui quis vehicula consequat. Nunc eleifend tellus in erat egestas, vitae hendrerit nulla sodales. In et efficitur massa, dictum posuere neque. Duis ultrices neque quis enim euismod, vitae bibendum felis sagittis.</p>
+			<!-- End Menu -->
+		</div>
+
+		<div id="footer">
+			<!-- Start Footer -->
+			CopyRight &copy; Babastudio 2021
+			<!-- End Footer -->
+		</div>
+	</div>
+</body>
+</html>
